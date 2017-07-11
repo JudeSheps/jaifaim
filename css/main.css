@@ -1,0 +1,351 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+.menu {
+  width: 100%;
+}
+
+.img-maxheight {
+  max-height: 380px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dark-grey {
+  color: #333;
+}
+
+.a-footer {
+  color: #666;
+}
+
+.desk-a {
+  margin-left: 1em;
+  padding: .3em .5em;
+}
+
+.desk-a:hover {
+  background-color: #666;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  padding: .3em .5em;
+  margin-left: 1em;
+}
+
+.btn-current {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  color: #feaf67;
+  padding: .3em .5em;
+  margin-left: 1em;
+}
+
+.mobile-a {
+  display: block;
+  text-align: center;
+  color: #666;
+  background-color: #f2f2f2;
+  padding: .5em 3em;
+}
+
+.mobile-current {
+  background-color: #feaf67;
+  color: #fff;
+}
+
+.mobile-a:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.headerbar {
+  background-color: #d4582e;
+  color: #fff;
+}
+
+.logowrapper {
+  display: inline-block;
+}
+
+.logo {
+  width: 50px;
+  display: inline-block;
+}
+
+.brain {
+  margin: 0;
+  display: inline-block;
+}
+
+h2,
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #333;
+}
+
+ul {
+  margin: 0;
+}
+
+.footerbar {
+  background-color: #d4582e;
+  color: #fff;
+}
+
+.btn-nav {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  color: #666;
+}
+
+.btn:hover {
+  background-color: #feaf67;
+  border-color: #feaf67;
+}
+
+a .banner-btn {
+  color: #666;
+}
+
+.value {
+  color: #fff;
+}
+
+.signup-btn {
+  background-color: #feaf67;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: .2em .4em;
+  margin-left: 1em;
+}
+
+.signup-current {
+  background-color: #666;
+}
+
+.signup-btn:hover {
+  background-color: #fff;
+  color: #feaf67;
+}
+
+.nav-mobile {
+  position: absolute;
+  top: .4em;
+  right: .5em;
+  z-index: 1;
+}
+
+.nav-check {
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: block;
+  width: 25px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+[type="checkbox"] + label::before {
+  content: " ";
+  display: block;
+  height: 1.8em;
+  margin-right: .3em;
+  position: absolute;
+  top: -3em;
+  width: 1.8em;
+  background-color: #fff;
+  background-size: cover;
+  border: 2px solid #666;
+  line-height: inherit;
+}
+
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  display: none;
+}
+
+.staff {
+  color: #666;
+}
+
+section {
+  background-color: #f2f2f2;
+}
+
+.social {
+  width: 40px;
+  margin: .6em;
+}
+
+.footer-nav {
+  font-size: .6rem;
+  color: #666;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+hr {
+  border-color: rgba(254, 175, 103, .3);
+  margin: 0;
+}
+
+.form-button {
+  padding: .375em 2em .42em;
+  background-color: #feaf67;
+  border: 3px solid;
+  border-color: #feaf67;
+  color: #fff;
+}
+
+thead {
+  background-color: #feaf67;
+  color: #fff;
+}
+
+tbody th {
+  font-weight: bold;
+  font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+table {
+  min-width: 15em;
+}
+
+.table-features {
+  width: 3em;
+}
+
+.table-details {
+  width: 8em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .img-1,
+  .img-3,
+  .img-4,
+  .img-5 {
+    display: none;
+  }
+
+  .img-2 {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .img-1,
+  .img-2,
+  .img-4,
+  .img-5 {
+    display: none;
+  }
+
+  .img-3 {
+    display: block;
+  }
+
+  .unit-left {
+    padding-right: .25rem;
+  }
+
+  .unit-right {
+    padding-left: .25rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-5 {
+    display: none;
+  }
+
+  .img-4 {
+    display: block;
+  }
+
+  .nav-desk {
+    display: inline-block;
+  }
+
+  .nav {
+    display: inline-block;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    display: none;
+  }
+
+  .img-5 {
+    display: block;
+  }
+
+}
